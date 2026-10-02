@@ -18,8 +18,8 @@ export default function FeaturesPage() {
             Built <span className="text-gradient-vibeland">Different</span>
           </h1>
           <p className="text-xl text-[var(--text-secondary)] max-w-3xl mx-auto">
-            Not a toy metaverse. VIBELAND is a production-grade 3D environment
-            with real spatial physics, WebSocket multiplayer, and AI integration.
+            VIBELAND is a concept for a 3D environment with spatial physics,
+            WebSocket multiplayer, and AI integration. It is not yet playable.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function FeaturesPage() {
               },
               {
                 title: "WebSocket Multiplayer",
-                desc: "Real-time multiplayer powered by Rust/Axum WebSockets. Position updates at 10Hz, equipment broadcasting, spawn preferences, and teleportation. See other players move in real-time.",
+                desc: "Planned real-time multiplayer on Rust/Axum WebSockets. Position updates at 10Hz, equipment broadcasting, spawn preferences, and teleportation. See other players move in real time.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0" />
@@ -135,11 +135,11 @@ export default function FeaturesPage() {
       <section className="py-24 bg-[var(--dark-surface)]">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            See It <span className="text-gradient-vibeland">In Action</span>
+            Follow <span className="text-gradient-vibeland">Progress</span>
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://vibertas.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Launch Vibertas
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
             </a>
             <Link href="/avatars" className="btn-secondary">
               Meet the Avatars

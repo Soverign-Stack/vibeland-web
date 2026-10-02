@@ -241,12 +241,11 @@ export default function AvatarsPage() {
             Choose Your <span className="text-gradient-vibeland">Avatar</span>
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            Enter VIBELAND and customize your space explorer. Equip items,
-            explore buildings, and collaborate with AI agents.
+            VIBELAND is a concept and is not yet playable. The plan is for you to customize a space explorer, equip items, explore buildings, and collaborate with AI agents.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://vibertas.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Enter VIBELAND
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
             </a>
             <Link href="/roadmap" className="btn-secondary">
               See Roadmap

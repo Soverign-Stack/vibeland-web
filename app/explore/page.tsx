@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Explore VIBELAND",
-  description: "Enter the sovereign metaverse. Navigate multi-level architecture, interact with AI agents, and explore themed project buildings.",
+  description: "A concept for the sovereign metaverse: navigate multi-level architecture, interact with AI agents, and explore themed project buildings.",
 };
 
 export default function ExplorePage() {
@@ -15,10 +15,10 @@ export default function ExplorePage() {
         <div className="absolute inset-0 tron-grid grid-pulse" />
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient-vibeland">Explore</span> the World
+            <span className="text-gradient-vibeland">Explore</span> the Concept
           </h1>
           <p className="text-xl text-[var(--text-secondary)] max-w-3xl mx-auto mb-8">
-            VIBELAND is a living, breathing digital environment. Every space has purpose.
+            VIBELAND is a concept for a digital environment. Every space has purpose.
             Every building represents a real project. Every avatar has a role.
           </p>
         </div>
@@ -148,14 +148,14 @@ export default function ExplorePage() {
       <section className="py-24 bg-[var(--dark-surface)]">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to <span className="text-gradient-vibeland">Enter</span>?
+            Want to <span className="text-gradient-vibeland">Follow</span> Progress?
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            VIBELAND is built into the Vibertas dashboard. Launch Vibertas to enter the world.
+            VIBELAND is a concept and is not yet playable. Get updates as it develops.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://vibertas.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Launch Vibertas
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
             </a>
             <Link href="/avatars" className="btn-secondary">
               Meet the Avatars

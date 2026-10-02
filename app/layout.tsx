@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     default: "VIBELAND | The Sovereign Metaverse",
     template: "%s | VIBELAND"
   },
-  description: "VIBELAND is the immersive 3D metaverse of the Sovereign Stack - explore virtual worlds, build spaces, and collaborate in real-time across the decentralized mesh.",
+  description: "VIBELAND is a concept for an immersive 3D metaverse on the Sovereign Stack. It is not yet playable.",
   keywords: ["VIBELAND", "metaverse", "virtual world", "3D", "sovereign", "decentralized", "multiplayer", "avatars", "Sovereign Stack"],
-  authors: [{ name: "PowerClub Global" }],
+  authors: [{ name: "Powerclub Global" }],
   openGraph: {
     title: "VIBELAND | The Sovereign Metaverse",
     description: "Build, explore, and own your digital world on the sovereign mesh",

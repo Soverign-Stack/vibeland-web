@@ -22,7 +22,7 @@ const ecosystemProjects = [
   {
     id: "vibe",
     name: "VIBE Token",
-    url: "https://vibetoken.xyz",
+    url: "https://www.vibe-token.com",
     color: "#22c55e",
   },
   {
@@ -63,11 +63,11 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-[var(--text-secondary)] text-sm mb-4">
-              The immersive 3D metaverse of the Sovereign Stack. Build, explore, and own your digital world.
+              A concept for an immersive 3D metaverse on the Sovereign Stack. Not yet playable.
             </p>
             <div className="flex items-center gap-2 text-sm">
               <span className="w-2 h-2 rounded-full bg-[var(--vibeland-primary)] animate-pulse" />
-              <span className="text-[var(--text-muted)]">Multiplayer Active</span>
+              <span className="text-[var(--text-muted)]">Concept stage</span>
             </div>
           </div>
 
@@ -77,7 +77,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/explore" className="text-sm text-[var(--text-muted)] hover:text-[var(--vibeland-primary)] transition-colors">
-                  Enter World
+                  Explore the Concept
                 </Link>
               </li>
               <li>
@@ -136,12 +136,12 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-muted)] hover:text-[var(--vibeland-primary)] transition-colors"
                 >
-                  PowerClub Global
+                  Powerclub Global
                 </a>
               </li>
               <li>
                 <a
-                  href="https://okb-ventures.vercel.app"
+                  href="https://www.okbventures.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors"
@@ -182,7 +182,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} VIBELAND. Part of the <span className="text-[var(--sovereign-gold)]">Sovereign Stack</span>.
           </p>
           <p className="text-xs text-[var(--text-muted)]">
-            Backed by <a href="https://okb-ventures.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[var(--sovereign-gold)] hover:underline">OKB Ventures</a>
+            Backed by <a href="https://www.okbventures.com" target="_blank" rel="noopener noreferrer" className="text-[var(--sovereign-gold)] hover:underline">OKB Ventures</a>
           </p>
         </div>
       </div>

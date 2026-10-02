@@ -37,21 +37,20 @@ export default function RoadmapPage() {
                 <div>
                   <h3 className="text-2xl font-bold text-[var(--text-primary)]">Avatar Systems</h3>
                   <div className="flex items-center gap-2 mt-1">
-                    <span className="px-2 py-0.5 rounded bg-[var(--vibe-primary)]/10 text-[var(--vibe-primary)] text-xs font-medium">COMPLETE</span>
-                    <span className="text-sm text-[var(--text-muted)]">92% done</span>
+                    <span className="px-2 py-0.5 rounded bg-[var(--vibe-primary)]/10 text-[var(--vibe-primary)] text-xs font-medium">PLANNED</span>
                   </div>
                 </div>
               </div>
               <div className="ml-16 grid md:grid-cols-2 gap-4">
                 {[
-                  { item: "Humanoid user avatar with animations", done: true },
-                  { item: "NORA holographic AI with 6 moods", done: true },
-                  { item: "Voxel agent workers (3 role variants)", done: true },
-                  { item: "ORCHA fairy companion", done: true },
-                  { item: "Equipment system (4 slots)", done: true },
-                  { item: "Third-person camera controller", done: true },
-                  { item: "WASD + flight movement", done: true },
-                  { item: "Click-to-move navigation", done: true },
+                  { item: "Humanoid user avatar with animations", done: false },
+                  { item: "NORA holographic AI with 6 moods", done: false },
+                  { item: "Voxel agent workers (3 role variants)", done: false },
+                  { item: "ORCHA fairy companion", done: false },
+                  { item: "Equipment system (4 slots)", done: false },
+                  { item: "Third-person camera controller", done: false },
+                  { item: "WASD + flight movement", done: false },
+                  { item: "Click-to-move navigation", done: false },
                 ].map((task) => (
                   <div key={task.item} className="flex items-center gap-3">
                     <span className={task.done ? "text-[var(--vibe-primary)]" : "text-[var(--text-muted)]"}>
@@ -74,21 +73,20 @@ export default function RoadmapPage() {
                 <div>
                   <h3 className="text-2xl font-bold text-[var(--text-primary)]">Environment & Multiplayer</h3>
                   <div className="flex items-center gap-2 mt-1">
-                    <span className="px-2 py-0.5 rounded bg-[var(--vibeland-primary)]/10 text-[var(--vibeland-primary)] text-xs font-medium">COMPLETE</span>
-                    <span className="text-sm text-[var(--text-muted)]">92% done</span>
+                    <span className="px-2 py-0.5 rounded bg-[var(--vibeland-primary)]/10 text-[var(--vibeland-primary)] text-xs font-medium">PLANNED</span>
                   </div>
                 </div>
               </div>
               <div className="ml-16 grid md:grid-cols-2 gap-4">
                 {[
-                  { item: "Multi-level circular architecture", done: true },
-                  { item: "Command Center with hologram core", done: true },
-                  { item: "Spiral staircase (270°, 32 steps)", done: true },
-                  { item: "8 building types with themes", done: true },
-                  { item: "Building interiors with agents", done: true },
-                  { item: "Spatial collision system", done: true },
-                  { item: "WebSocket multiplayer (10Hz)", done: true },
-                  { item: "Host/guest virtual spaces DB", done: true },
+                  { item: "Multi-level circular architecture", done: false },
+                  { item: "Command Center with hologram core", done: false },
+                  { item: "Spiral staircase (270°, 32 steps)", done: false },
+                  { item: "8 building types with themes", done: false },
+                  { item: "Building interiors with agents", done: false },
+                  { item: "Spatial collision system", done: false },
+                  { item: "WebSocket multiplayer (10Hz)", done: false },
+                  { item: "Host/guest virtual spaces DB", done: false },
                 ].map((task) => (
                   <div key={task.item} className="flex items-center gap-3">
                     <span className={task.done ? "text-[var(--vibeland-primary)]" : "text-[var(--text-muted)]"}>
@@ -151,12 +149,12 @@ export default function RoadmapPage() {
           <p className="text-[var(--text-secondary)] text-lg mb-8 max-w-3xl mx-auto">
             VIBELAND will become the primary interface for the Sovereign Stack.
             Walk through your infrastructure. Talk to your AI. Watch your mesh
-            network pulse in real-time. Not a game — a sovereign workspace.
+            network pulse in real time. Not a game — a sovereign workspace.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/invest" className="btn-primary">
-              Investment Info
-            </Link>
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
+            </a>
             <Link href="/features" className="btn-secondary">
               Current Features
             </Link>

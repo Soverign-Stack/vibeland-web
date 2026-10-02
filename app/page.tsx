@@ -17,10 +17,10 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
-          {/* Live indicator */}
+          {/* Status indicator */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--vibeland-primary)]/10 border border-[var(--vibeland-primary)]/30 rounded-full text-[var(--vibeland-primary)] text-sm mb-8">
             <span className="w-2 h-2 rounded-full bg-[var(--vibeland-primary)] animate-pulse" />
-            Multiplayer Active - Enter Now
+            Concept: not yet playable
           </div>
 
           {/* World orb visual */}
@@ -37,13 +37,13 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-[var(--text-secondary)] max-w-3xl mx-auto mb-8">
             Build your world. Own your space. VIBELAND is an immersive 3D
             metaverse powered by the Sovereign Stack mesh network.
-            Tron-inspired. Multiplayer. Sovereign.
+            A concept for a Tron-inspired, multiplayer, sovereign world. Not yet playable.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/explore" className="btn-primary">
-              Enter VIBELAND
-            </Link>
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
+            </a>
             <Link href="/features" className="btn-secondary">
               How It Works
             </Link>
@@ -75,8 +75,8 @@ export default function Home() {
               <div className="text-sm text-[var(--text-muted)]">Immersive Worlds</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-[var(--vibeland-primary)] mb-2">LIVE</div>
-              <div className="text-sm text-[var(--text-muted)]">Multiplayer</div>
+              <div className="text-3xl md:text-4xl font-bold text-[var(--vibeland-primary)] mb-2">Concept</div>
+              <div className="text-sm text-[var(--text-muted)]">Multiplayer (planned)</div>
             </div>
           </div>
         </div>
@@ -130,8 +130,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-[var(--vibeland-light)] mb-2">Collaborate</h3>
               <p className="text-[var(--text-secondary)]">
-                Real-time multiplayer with WebSocket sync. See other players,
-                share equipment, and work alongside AI agents in shared spaces.
+                Planned real-time multiplayer: seeing other players, sharing equipment, and working alongside AI agents in shared spaces.
               </p>
             </div>
           </div>
@@ -302,19 +301,17 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--vibeland-primary)]/10 border border-[var(--vibeland-primary)]/30 rounded-full text-[var(--vibeland-primary)] text-sm mb-6">
             <span className="w-2 h-2 rounded-full bg-[var(--vibeland-primary)] animate-pulse" />
-            Built into Vibertas Dashboard
+            Concept, planned for Vibertas OS
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Your World <span className="text-gradient-vibeland">Awaits</span>
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            VIBELAND runs inside the Vibertas dashboard. Every project you create
-            becomes a building. Every team member becomes an avatar.
-            Your work environment, reimagined in 3D.
+            The idea is for VIBELAND to run inside Vibertas, which is in development. Every project would become a building and every team member an avatar. VIBELAND is a concept and is not yet playable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://vibertas.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Launch Vibertas
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
             </a>
             <Link href="/features" className="btn-secondary">
               See All Features
