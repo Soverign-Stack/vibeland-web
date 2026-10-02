@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vibeland-web.vercel.app"),
   title: {
     default: "VIBELAND | The Sovereign Metaverse",
     template: "%s | VIBELAND"
@@ -24,14 +25,16 @@ export const metadata: Metadata = {
   authors: [{ name: "Powerclub Global" }],
   openGraph: {
     title: "VIBELAND | The Sovereign Metaverse",
-    description: "Build, explore, and own your digital world on the sovereign mesh",
+    description: "VIBELAND is a concept for an immersive 3D metaverse on the Sovereign Stack. It is not yet playable.",
     type: "website",
     locale: "en_US",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "VIBELAND | The Sovereign Metaverse" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "VIBELAND | The Sovereign Metaverse",
-    description: "Build, explore, and own your digital world on the sovereign mesh",
+    description: "VIBELAND is a concept for an immersive 3D metaverse on the Sovereign Stack. It is not yet playable.",
+    images: ["/opengraph-image"],
   },
 };
 
