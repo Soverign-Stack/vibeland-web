@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vibeland-web.vercel.app"),
+  metadataBase: new URL("https://www.vibeland.io"),
   title: {
     default: "VIBELAND | The Sovereign Metaverse",
     template: "%s | VIBELAND"
